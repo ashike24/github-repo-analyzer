@@ -67,4 +67,4 @@ streamlit run app.py
 - Log scaling is used throughout to handle the wide range of repo sizes fairly
 
 ## Live Demo
-[Deployed on Streamlit Cloud](https://github-repo-analyzer.streamlit.app)
+[Deployed on Streamlit Cloud](https://ashike24.streamlit.app/)
