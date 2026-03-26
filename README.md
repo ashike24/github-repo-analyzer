@@ -1,5 +1,10 @@
 # GitHub Repository Intelligence Analyzer
 
+## 🔗 Live Demo
+[**Try it on Streamlit Cloud →**](https://ashike24.streamlit.app/)
+
+---
+
 A tool that analyzes multiple GitHub repositories and generates insights about their activity, complexity, and learning difficulty.
 
 ## Features
@@ -36,7 +41,6 @@ A tool that analyzes multiple GitHub repositories and generates insights about t
 - **Advanced**: Combined score > 60
 
 ## Setup and Running
-
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
@@ -65,6 +69,3 @@ streamlit run app.py
 - File count uses the HEAD tree and may miss files in submodules
 - Activity score does not account for issue or PR activity (GitHub API rate limits)
 - Log scaling is used throughout to handle the wide range of repo sizes fairly
-
-## Live Demo
-[Deployed on Streamlit Cloud](https://ashike24.streamlit.app/)
